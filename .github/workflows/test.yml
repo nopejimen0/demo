@@ -4,7 +4,7 @@ jobs:
     name: Test
     runs-on: ubuntu-latest
     steps:
-    - name: 'Hola World'
+    - name: 'Hola Mundo'
       uses: actions/hello-world-docker-action@master
       with:
         who-to-greet: ${{ secrets.SUPER_SECRET }}
