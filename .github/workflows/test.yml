@@ -1,7 +1,7 @@
 on: [push, pull_request]
 jobs:
   test:
-    name: Test
+    name: Prueba
     runs-on: ubuntu-latest
     steps:
     - name: 'Hola Mundo'
